@@ -17,7 +17,7 @@ public class ServiceTest {
 	@Test
 	public void TestEmailTwo() {
 		Service service=new Service();
-		assertTrue(service.validateEmail("abcxyz.com"));
+		assertTrue(service.validateEmail("abc.xyz@domain.com"));
 	}
 
 }
